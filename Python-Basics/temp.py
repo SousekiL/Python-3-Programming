@@ -1,5 +1,3 @@
-from itertools import permutations
-for a in permutations("123456789", 4):
-    print("".join(a))
-    
-    
+# read a xls data file
+import pandas as pd
+data = pd.read_excel("data.xls") 
